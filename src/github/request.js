@@ -13,7 +13,7 @@ const GET = async ({ url, query = {} }) => {
         headers: {
           "content-type": "application/json",
           "Accept": "application/vnd.github.v3+json",
-          "User-Agent": "boty-App",
+          "User-Agent": "CalmBoat-App",
         },
       }, (error, response, body) => {
         if (!error && body) {
